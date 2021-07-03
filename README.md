@@ -1,4 +1,12 @@
-# appengine-image-service
+# image-service
+
+## Access the service
+
+Set the `path` query parameter in the url to a path from the default storage bucket at `gs://controlme-dev.appspot.com`.
+
+```
+https://controlme-dev.appspot.com/images/serving-url?path=/web-app/waz311v.png
+```
 
 ## Deployment
 
