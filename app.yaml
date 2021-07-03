@@ -1,0 +1,18 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+env_variables:
+  APP_ENV: production
+
+handlers:
+  - url: /images.*
+    script: image.app
+    secure: always
+    # Uncomment to enforce authentication with Google accounts
+    # login: required
+    auth_fail_action: unauthorized
+
+libraries:
+  - name: ujson
+    version: "1.35"
