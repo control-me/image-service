@@ -16,6 +16,8 @@ In order to get access to Google's high performance image serving infrastructure
 gcloud app deploy
 ```
 
+Your production URL is at `gcloud-project.appspot.com` according to your project ID.
+
 ### Endpoints
 
 _Request_  
